@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32912.340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiTiS.NBT", "NiTiS.NBT\NiTiS.NBT.csproj", "{58E54DF4-E8EB-46D8-8B6B-FBAAF81E3E8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{9C78ADCD-0CB8-420A-A9CF-A10483766D1A}"
+	ProjectSection(SolutionItems) = preProject
+		Meta.props = Meta.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiTiS.NBT.Tests", "NiTiS.NBT.Tests\NiTiS.NBT.Tests.csproj", "{061F5738-7942-4535-BABF-4520F9B70ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E54DF4-E8EB-46D8-8B6B-FBAAF81E3E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E54DF4-E8EB-46D8-8B6B-FBAAF81E3E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E54DF4-E8EB-46D8-8B6B-FBAAF81E3E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E54DF4-E8EB-46D8-8B6B-FBAAF81E3E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061F5738-7942-4535-BABF-4520F9B70ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061F5738-7942-4535-BABF-4520F9B70ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061F5738-7942-4535-BABF-4520F9B70ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061F5738-7942-4535-BABF-4520F9B70ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA847FE5-2B2B-43E8-9171-BD575BFF917C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Version>0.1.0.0</Version>
+		<TargetFrameworks>net6.0;netstandard2.1;netcoreapp3.1;net5.0;net48</TargetFrameworks>
+		<Version>$(Version)</Version>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
+		<PackageVersion>$(Version)</PackageVersion>
+
+		<Copyright>Copyright (c) NiTiS-Dev and contributors</Copyright>
+		<PackageLicenseUrl>https://raw.githubusercontent.com/NiTiS-Dev/NiTiS.NBT/singleton/LICENSE</PackageLicenseUrl>
+
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+		<TargetName>$(AssemblyName)</TargetName>
+
+		<Summary>$(Description)</Summary>
+
+		
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>embedded</DebugType>
+
+		<RepositoryUrl>https://github.com/NiTiS-Dev/NiTiS.NBT</RepositoryUrl>
+		<PackageIconUrl>https://raw.githubusercontent.com/NiTiS-Dev/meta/singleton/ntscr/core/original.png</PackageIconUrl>
+	</PropertyGroup>
+</Project>

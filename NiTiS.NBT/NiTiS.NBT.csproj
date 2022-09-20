@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>NiTiS.NBT</AssemblyName>
+
+		<Description>
+			NBT lib
+		</Description>
+
+		<PackageTags>NBT</PackageTags>
+	</PropertyGroup>
+
+	<Import Project="../Meta.props" />
+
+</Project>
